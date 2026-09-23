@@ -1,0 +1,14 @@
+###################################################################################################
+# tw-mod-loot-multiplier module configuration
+###################################################################################################
+
+[LootMultiplier]
+
+# Enable the loot multiplier.
+LootMultiplier.Enable = 0
+
+# Number of times each loot template is processed.
+# 1 = default Vanilla behavior.
+# 2 = roll the table twice, 3 = three times, etc.
+# Values below 1 are treated as 1; values above 10 are treated as 10.
+LootMultiplier.Count = 1
